@@ -1,0 +1,40 @@
+body{
+    padding: 40px;
+    text-align: center;
+}
+.header_content{
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+    color: #555;
+    margin: 0 auto 20px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.gallery{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.gallery img{
+    width: 22%;
+    margin: 0 1% 2%;
+    height: 160px;
+    border-radius: 10px;
+    float: left;
+}
