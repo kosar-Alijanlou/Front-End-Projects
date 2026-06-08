@@ -1,0 +1,82 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.logo span {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    color: white;
+    font-size: 2.3rem;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline red;
+    text-underline-offset: 20px;
+    
+}
+
+.cv-download-btn {
+    color: red;
+    font-size: 2.3rem;
+    border: 3px solid red;
+    border-radius: 15px;
+    padding: 15px 5px;
+    transition: 0.5s ease;
+}
+
+.cv-download-btn:hover {
+    color: black;
+    background-color: red;
+}
+
+main {
+    display: flex;
+    border: 1px solid red;
+}
+
+.stats{
+    display: flex;
+    border: 1px solid red;
+}
+
+.social-icons {
+    display: flex;
+    border: 1px solid red;
+}
